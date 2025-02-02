@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="critique-style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="assets/devwev-logo.png" alt="cat" style="height: 80px; width: 80px; position: relative; right: 400px;">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="critique.html">Critique</a></li>
+                <li><a href="#contact-info">Contact</a></li>
+            </ul>
+            <div>
+                Student
+            </div>
+        </nav>
+        <div class="logo"></div>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div id="hero-container">
+                <h1>About</h1>
+                <h1 style="position: relative; top: -20px;">Codechum</h1>
+                <p style="padding-top: 30px;">
+                    CodeChum is an online educational platform designed to help students learn 
+                    programming concepts. It provides teachers with tools to create and assign 
+                    coding exercises, automatically check student submissions, and track student 
+                    progress. Students can use CodeChum to practice their coding skills, receive 
+                    immediate feedback on their solutions, and learn from their mistakes in a 
+                    game-like coding environment. <br> <br>
+                </p>
+                <p style="border-bottom: 2px solid #2d3845 ; padding-bottom: 30px;">
+                    In essence, CodeChum simplifies the teaching and learning of programming by auto
+                    ating many of the administrative tasks involved, providing a more engaging and 
+                    interactive learning experience for students and streamlining the delivery and 
+                    workflow of instructors when it comes to teaching programming.
+                </p>
+            </div>
+            <div id="hero-container" style="padding-top: 50px;">
+                <img src="assets/hero-image.png" alt="codechum-logo" style="height: 650px; width: 650px; background-color: #2d3845; border-radius: 200px; animation: float 3s ease-in-out infinite">
+            </div>
+        </section>
+        <section id="critique-1">
+            <div id="critique-1-container">
+                <div class="critique-title">
+                    <img src="assets/critique-1-image.png" alt="critique-1-image" style="position: relative; left: -25px;">
+                    <h3>Critique 1</h3>
+                    <h1 style="color: #ffffff;">HTML Structure</h1>
+                </div>
+                <div class="critique-1-information">
+                    <h6>Question 1</h6>
+                    <h5>Does the website use semantic HTML elements? (e.g. &lt;header&gt;, &lt;footer&gt;, and &lt;article&gt;)?</h5>
+                    <p>
+                        Considering that CodeChum revolves around function, that being as a learning tool 
+                        to enhance students’ programming skills, a majority if not all, of the website’s 
+                        HTML structure is quite simple. A head, a body containing a multitude of divs, and 
+                        most importantly, lots of JavaScript files. Again, this isn’t really unexpected for 
+                        CodeChum which revolves around coding education, which ranges from learning about code, 
+                        writing code, testing code, and giving us problems to solve about code. While it 
+                        effectively uses header text (h1 - h6)  tags and interactive elements, it lacks 
+                        semantic HTML elements like &lt;header&gt;, &lt;footer&gt;, and &lt;article&gt;, which are crucial 
+                        for improving accessibility and search engine optimization (SEO)
+                        <br> <br>
+                        Another thing to note upon inspecting the website’s source code is that it was 
+                        developed using Python. This aligns with observations wherein error messages on the 
+                        CodeChum terminal often show Python syntax. Overall, CodeChum's HTML structure is 
+                        notably simple, primarily using sections and divs along with header tags (h1 - h6), 
+                        links (&lt;a&gt;), and buttons.
+                    </p>
+                </div>
+                <div class="critique-1-information">
+                    <h6>Question 2</h6>
+                    <h5>Is the HTML code well-organized, with proper nesting and indentation?</h5>
+                    <p>
+                        Yes, in terms of the indentation least. As mentioned, CodeChum relies heavily on 
+                        divs, which makes it hard to see which sections they represent. The lack of clear 
+                        descriptions for elements like headers, footers, and articles adds to the confusion 
+                        in the HTML structure. Although the overall layout is smooth, the unclear class names
+                        and missing semantic HTML can be daunting for those looking at the code, especially 
+                        since the script and styling files are also part of the HTML.
+                    </p>
+                </div>
+                <div class="critique-1-information">
+                    <h6>Question 3</h6>
+                    <h5>Are there any missing elements that could improve the structure (e.g., &lt;headings&gt;, &lt;forms&gt;)?</h5>
+                    <p>
+                        With the website's simple and straightforward design, the robustness of its structure
+                         has been thoroughly refined as it doesn't need any major elements to be applied for 
+                         it to have better structure. The different elements of the website harmoniously work 
+                         together to give its user the ease of access to its features;
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="critique-2">
+            <div id="critique-2-title">
+                <div class="critique-title">
+                    <img src="assets/critique-2-image.png" alt="critique-2-image">
+                    <h3>Critique 2</h3>
+                    <h1>CSS Styling</h1>
+                </div>
+            </div>
+            <div id="critique-2-container">
+                <div class="critique-2-information">
+                    <section class="information-2-title">
+                        <h1>Is the layout visually appealing and consistent across the website?</h1>
+                    </section>
+                    <div>
+                        <p>
+                            Codechum’s layout is simple, clean, and well-organized, making it easy to look at.
+                            The colors and fonts are consistent, which gives it a professional appearance. However,
+                            the overall design feels basic and could be improved with more modern touches, like
+                            adding shadows, gradients, or smooth animations to buttons and sections. Small visual
+                            details like icons or transitions would make the site more visually appealing and engaging.
+                        </p>
+                    </div>
+                </div>
+                <div class="critique-2-information">
+                    <section class="information-2-title">
+                        <h1>Does the website use responsive design techniques? Test it on different screen sizes.</h1>
+                    </section>
+                    <div>
+                        <p>
+                            Codechum uses @media to make their website respond to different screen sizes. The most
+                            notable change is for mobile phones where the user profile settings are found normally
+                            on the top navigation bar which will be moved or relocated to the side navigation bar
+                            if opened on a mobile phone.  Additionally, even though it uses different @media to
+                            correspond to other screen sizes, the changes aren't too noticeable as they only change
+                            the layout and structures of their divs and sections when the screen sizes are altered and
+                            not the sizes.
+                        </p>
+                    </div>
+                </div>
+                <div class="critique-2-information">
+                    <section class="information-2-title">
+                        <h1>Are colors, fonts, and spacing used effectively?</h1>
+                    </section>
+                    <div>
+                        <p>
+                            Codechum primarily utilizes the color white, blue, and green throughout the website as
+                            its color palette. Coupled with its font, Codechum manages to create an environment that
+                            is pleasing to the eye while keeping its functionality. The chosen color scheme and font
+                            also goes really well together as it portrays the “futuristic” look they are aiming for
+                            which is evident through their mascot.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="critique-3">
+            <div id="critique-3-title">
+                <div class="critique-title">
+                    <img src="assets/critique-3-image.png" alt="critique-3-image" style="height: auto;width: 300px;">
+                    <h3>Critique 3</h3>
+                    <h1 style="color: #ffffff;">Usability</h1>
+                </div>
+            </div>
+            <div id="critique-3-information">
+                <div id="critique-3-information-container">
+                    <h4>Is the website easy to navigate? Are menus and links intuitive?</h4>
+                    <p>
+                        Yes, codechum is easy to navigate because the menus are clear, and links take you to the
+                        right place without confusion. It’s simple to find what you need, such as lessons or activities.
+                        However, the website doesn’t always respond immediately, which can be frustrating for users. This
+                        issue could be solved by improving the speed and performance of the site to make it more efficient
+                        and user-friendly.
+                    </p> <br> <br>
+                    <h4>Is the text readable (font size, contrast, line spacing)?</h4>
+                    <p>The text on CodeChum is easy to read, with a clear font size, strong contrast between text and
+                        background, and enough space between lines. It also offers a dark mode for better comfort in
+                        low-light environments. The platform also follows the “13 web design best practices to improve UX
+                        in 2024” like good design practices, using different fonts for content and menu items, adding bullet
+                        points to make text easier to scan, and avoiding hard-to-read color combinations like red and black.
+                        There is enough space around text and headings to keep the layout clean, and it uses clear, readable
+                        fonts like Monaco.
+                    </p> <br> <br>
+                    <h4>Are interactive elements (buttons, links, forms) functional?</h4>
+                    <p>
+                        Yes, the interactive elements on CodeChum, such as buttons, links, and forms, are functional and
+                        designed to enhance user experience. Buttons change color when hovered over, providing feedback that
+                        an action will occur when clicked. Links are clearly distinguishable and direct users to the intended
+                        destinations. Additionally, the platform follows “the 13 web design best practices to improve UX in
+                        2024”, such as using recognizable icons for easier navigation, placing the logo at the top left or
+                        center of the website with a link back to the homepage for easy access, and maintaining a user-friendly
+                        layout that encourages interaction.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="critique-4">
+            <div id="critique-4-title">
+                <div class="critique-title">
+                    <img src="assets/critique-4-image.png" alt="critique-4-image">
+                    <h3>Critique 4</h3>
+                    <h1>Accessibility</h1>
+                </div>
+            </div>
+            <div id="critique-4-container">
+                <div class="critique-4-information">
+                    <section class="information-title">
+                        <img src="assets/c-image.png" alt="c-image">
+                        <h1>Is the layout visually appealing and consistent across the website?</h1>
+                    </section>
+                    <div>
+                        <p>
+                            Codechum’s layout is simple, clean, and well-organized, making it easy to look at.
+                            The colors and fonts are consistent, which gives it a professional appearance. However,
+                            the overall design feels basic and could be improved with more modern touches, like
+                            adding shadows, gradients, or smooth animations to buttons and sections. Small visual
+                            details like icons or transitions would make the site more visually appealing and engaging.
+                        </p>
+                    </div>
+                </div>
+                <div class="critique-4-information">
+                    <section class="information-title">
+                        <img src="assets/c-image.png" alt="c-image">
+                        <h1>Does the website use responsive design techniques? Test it on different screen sizes.</h1>
+                    </section>
+                    <div>
+                        <p>
+                            Codechum uses @media to make their website respond to different screen sizes. The most
+                            notable change is for mobile phones where the user profile settings are found normally
+                            on the top navigation bar which will be moved or relocated to the side navigation bar
+                            if opened on a mobile phone.  Additionally, even though it uses different @media to
+                            correspond to other screen sizes, the changes aren't too noticeable as they only change
+                            the layout and structures of their divs and sections when the screen sizes are altered and
+                            not the sizes.
+                        </p>
+                    </div>
+                </div>
+                <div class="critique-4-information">
+                    <section class="information-title">
+                        <img src="assets/c-image.png" alt="c-image">
+                        <h1>Does the website use responsive design techniques? Test it on different screen sizes.</h1>
+                    </section>
+                    <div>
+                        <p>
+                            Codechum primarily utilizes the color white, blue, and green throughout the website as
+                            its color palette. Coupled with its font, Codechum manages to create an environment that
+                            is pleasing to the eye while keeping its functionality. The chosen color scheme and font
+                            also goes really well together as it portrays the “futuristic” look they are aiming for
+                            which is evident through their mascot.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div id="contact-info">
+            <p>For Individual Inquiries you can contact us using the following:</p>
+            <div class="names">
+                <p>James Benedict Ang <br> <a href="mailto:22102797@usc.edu.ph">22100703@usc.edu.ph</a></p>
+                <p>Charles Jade Argawanon <br> <a href="mailto:22102797@usc.edu.ph">22102797@usc.edu.ph</a></p>
+                <p>Leira Bengil <br> <a href="mailto:24105073@usc.edu.ph">24105073@usc.edu.ph</a></p>
+                <p>Emmanuel Cañete <br> <a href="mailto:22102082@usc.edu.ph">22102082@usc.edu.ph</a></p>
+                <p>Homer Adriel Dorin <br> <a href="mailto:24103175@usc.edu.ph">24103175@usc.edu.ph</a></p>
+                <p>Lislie Eunice Melencion <br> <a href="mailto:23103014@usc.edu.ph">23103014@usc.edu.ph</a></p>   
+            </div>
+        </div>
+        <div class="footer-text">
+            <h4> ©University of San Carlos</h6>     
+        </div>
+    </footer>
+</body>
+</html>

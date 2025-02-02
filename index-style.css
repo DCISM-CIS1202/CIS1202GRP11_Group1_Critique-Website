@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+    font-family: proxima;
+    src: url(assets/fonts/Proxima\ Nova\ Thin.otf.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    width: 100vw;
+    background: #30343c;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    padding: 20px 0;
+    z-index: 100;
+}
+
+nav {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0; 
+}
+
+nav > ul > li {
+    padding: 0 50px;
+}
+
+nav > ul > li > a {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #989ca4;
+    text-decoration: none;
+}
+
+nav > div {
+    height: 30px;
+    width: 100px;
+    background-color: #38ca79;
+    display: flex;
+    border-radius: 50px;
+    position: relative;
+    left: 400px;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", serirf;
+    font-weight: 600;
+    font-size: 17 px
+}
+
+body {
+    background-color: #1f5d79;
+}
+
+footer {
+    background-color: #28313b;
+    text-align: center;
+}
+
+#hero-container {
+    height: 100vh;
+    width: 50vw;
+    background-color: #1f5d79;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+#hero-container > h1 {
+    font-family: "Poppins", serif;
+    font-size: 120px;
+    letter-spacing: 2px;
+}
+
+#hero-container > h2 {
+    font-family: "Poppins", serif;
+    font-size: 40px;
+    letter-spacing: 2px;
+    color: #ffffff;
+}
+
+#hero-container > div {
+    height: 40px;
+    width: 150px;
+    background-color: #38ca79;
+    color: #ffffff;
+    display: flex;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", serirf;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+#read {
+    transition: transform 0.4s cubic-bezier(0.25, 1.25, 0.3, 1), color 0.3s ease-in-out;
+}
+
+#read:hover {
+    transform: scale(1.1);
+}
+
+#read > a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#contact-info {
+    padding-top: 20px;
+}
+
+#contact-info > p {
+    color: #ffffff;
+}
+
+.names {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.names > p {
+    color: #ffffff;
+    margin: 1em;
+    font-size: 1rem;
+}
+
+.names > p > a {
+    color: #008afb;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    text-decoration: none;
+}
+
+.names > p > a:hover {
+    color: #8b0304;
+}
+
+.names > a:visited {
+    color: #1f5d79;
+}
+
+.footer-text > h4 {
+    font-family: "proxima", serif;
+    font-weight: 500;
+    color: #ffffff;
+}

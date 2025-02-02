@@ -1,0 +1,439 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+    font-family: proxima;
+    src: url(assets/fonts/Proxima\ Nova\ Thin.otf.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.critique-1-information, .critique-2-information, .critique-3-information, .critique-4-information {
+    overflow: hidden;
+}
+
+body {
+    line-height: 1.6;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #30343c;
+}
+
+p {
+    font-family: proxima, sans-serif;
+    font-size: 17px;
+    line-height: 2;
+    color: #28313b;
+}
+
+header {
+    width: 100vw;
+    background: #30343c;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    padding: 20px 0;
+    z-index: 100;
+}
+
+nav {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0; 
+}
+
+nav > ul > li {
+    padding: 0 50px;
+}
+
+nav > ul > li > a {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #989ca4;
+    text-decoration: none;
+}
+
+nav > div {
+    height: 30px;
+    width: 100px;
+    background-color: #38ca79;
+    display: flex;
+    border-radius: 50px;
+    position: relative;
+    left: 400px;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", serirf;
+    font-weight: 600;
+    font-size: 17 px
+}
+
+footer {
+    background-color: #28313b;
+    text-align: center;
+}
+
+#hero {
+    height: 100vh;
+    width: 100vw;
+    background-color: #f0f5f9;
+    display: flex;
+    justify-content: center;
+}
+
+#hero-container {
+    height: 100%;
+    width: 40%;
+    background-color: #f0f5f9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#hero-container > h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+#hero-container > p {
+    text-align: left;
+    max-width: 600px;
+    position: relative;
+    top: -15px;
+}
+
+#critique-1 {
+    width: 100vw;
+    background-color: #202434;
+    padding: 40px;
+}
+
+#critique-1-container {
+    height: 120%;
+    width: 70vw;
+    background-color: #2d3845;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 250px;
+    padding: 30px;
+}
+
+#critique-2 {
+    height: 110vh;
+    width: 100vw;
+    background-color:#e8f4fc;
+}
+
+#critique-2-title {
+    height: 35%;
+    width: 100%;
+    background-color: #e8f4fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#critique-2-container {
+    height: 56%;
+    width: 100%;
+    background-color: #e8f4fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#critique-3 {
+    height: 135vh;
+    width: 100vw;
+    background-color: #e8f4fc;
+}
+
+#critique-3-title {
+    height: 40vh;
+    width: 100vw;
+    background-color: #2d3845;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -10px;
+}
+
+#critique-3-information {
+    height: 95vh;
+    width: 100vw;
+    background-color: #2d3845;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+
+}
+
+#critique-3-information-container {
+    max-width: 50vw;
+    overflow: hidden;
+}
+
+#critique-3-information-container > h4 {
+    font-size: 25px;
+    color: #2cabe2;
+}
+
+#critique-3-information-container > p {
+    color: #ffffff;
+}
+
+#critique-4 {
+    height: 110vh;
+    width: 100vw;
+    background-color: #e8f4fc;
+}
+
+#critique-4-title {
+    height: 35vh;
+    width: 100vw;
+    background-color: #e8f4fc;
+}
+
+#critique-4-container {
+    height: 65vh;
+    width: 100vw;
+    background-color: #e8f4fc;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.critique-title {
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.critique-title > img {
+    height: 250px;
+    width: 250px;
+    padding: 0 0 0 40px;
+    object-fit: cover;
+}
+
+.critique-title > h1 {
+    font-size: 45px;
+    margin-top: 5px;
+}
+
+.critique-title > h3 {
+    font-size: 30px;
+    color: #949ca4;
+    font-weight: 600;
+}
+
+.critique-1-information {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    border: 1px solid #949ca4;
+    border-radius: 100px;
+    padding: 30px 80px 40px 80px;
+}
+
+.critique-1-information > h6 {
+    font-size: 15px;
+    color: #949ca4;
+}
+
+.critique-1-information > h5 {
+    font-size: 20px;
+    color: #30ace4;
+}
+
+.critique-1-information > p {
+    color: #ffffff;
+}
+
+.critique-2-information {
+    height: 540px;
+    width: 480px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+    border-radius: 20px;
+}
+
+.information-2-title {
+    height: 110px;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    margin-top: 10px;
+    max-width: 430px;
+    border-radius: 20px;
+}
+
+.information-2-title > h1 {
+    color: #2596be;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    text-align: center;
+    
+}
+
+.critique-2-information > h1 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.critique-2-information > div {
+    height: 390px;
+    width: 96%;
+    background-color: #e8fcec;
+    border-radius: 10px;
+    margin: 9px;
+}
+
+.critique-2-information > div > p {
+    padding: 10px;
+}
+
+.critique-4-information {
+    height: 550px;
+    width: 500px;
+    background-color: #b0fcd4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+
+.critique-4-information > h1 {
+    font-size: 20px;
+    text-align: center;
+    color: #485c54;
+}
+
+.critique-4-information > div {
+    height: 400px;
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    position: relative;
+    top: 10px;
+}
+
+.critique-4-information > div > p {
+    padding: 25px;
+}
+
+.information-title {
+    height: 120px;
+    width: 100%;
+    background-color: #b0fcd4;
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.information-title > img {
+    height: 100px;
+    width: 200px;
+    object-fit: contain;
+}
+
+.information-title > h1 {
+    font-size: 1.4rem;
+}
+
+#contact-info {
+    padding-top: 20px;
+}
+
+#contact-info > p {
+    color: #ffffff;
+}
+
+.names {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.names > p {
+    color: #ffffff;
+    margin: 1em;
+    font-size: 1rem;
+}
+
+.names > p > a {
+    color: #008afb;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    text-decoration: none;
+}
+
+.names > p > a:hover {
+    color: #8b0304;
+}
+
+.names > a:visited {
+    color: #1f5d79;
+}
+
+.footer-text > h4 {
+    font-family: "proxima", serif;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
